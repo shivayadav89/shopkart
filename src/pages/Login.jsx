@@ -1,6 +1,3 @@
-import React from 'react'
- function Login() {
-    return (
-        <div>Shopkart Login</div>
-    )
+export default function Login() {
+  return <div>Login</div>;
 }

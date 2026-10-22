@@ -4,3 +4,5 @@ import React from 'react'
         <div>Shopkart Cart</div>
     )
 }
+
+export default Cart;
