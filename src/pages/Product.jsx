@@ -202,7 +202,7 @@ function Product() {
 
   return (
     <>
-      <Navbar />
+      
 
       <main className="products-page">
         <section className="products-banner">

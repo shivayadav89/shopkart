@@ -1,4 +1,3 @@
-import Navbar from '../components/Navbar'
 import './Home.css'
 
 const products = [
@@ -92,7 +91,6 @@ const products = [
 function Home() {
   return (
     <>
-      <Navbar />
 
       {/* Hero Section */}
       <section className="hero-section">
