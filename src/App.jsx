@@ -8,6 +8,7 @@ import Practice from "./pages/Practice";
 import Register from "./pages/Register";
 import React, { useState, useReducer } from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
@@ -86,6 +87,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home Student FullName="Gopal" Age={30} />} />
         <Route path="/product" element={<Product dispatch={dispatch}/>} />
+        <Route path="/product/:fname/:lname" element={<Product/>} />
         <Route path="/cart" element={<Cart cart={cart} dispatch={dispatch}/>} />
         <Route path="/login" element={<Login setUserName={setUserName} />} />
         <Route path="/register" element={<Register setUserName={setUserName} />} />
@@ -96,6 +98,7 @@ function App() {
 
 
       </Routes>
+      <Footer />
     </>
   );
 

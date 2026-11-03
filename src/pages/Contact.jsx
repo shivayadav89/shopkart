@@ -80,10 +80,10 @@ function Contact() {
 
                     <div className="map-section">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.0167361813105!2d72.94758897381992!3d19.194471348245365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b92e8437d15b%3A0x8b55216ca2b2ebe9!2sI.T.VEDANT!5e0!3m2!1sen!2sin!4v1789454072911!5m2!1sen!2sin"
-                            title="I.T.VEDANT location"
-                            loading="lazy"
-                            referrerPolicy="strict-origin-when-cross-origin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.302932434503!2d73.12510764878019!3d19.23856430394973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795948f568ff3%3A0x34567d853b18ce0c!2sItvedant%20-%20Kalyan!5e0!3m2!1sen!2sin!4v1793539249567!5m2!1sen!2sin"
+                            width="600"
+                            height="450"
+                            style={{ border: 0 }}   
                             allowFullScreen
                         />
                     </div>

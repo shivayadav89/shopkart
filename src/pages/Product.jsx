@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 
 import "./Product.css";
 
@@ -146,14 +147,18 @@ const products = [
     discount: "29%",
     isAvailable: true,
     image: "/images/products/nonstick-pan.png"
-  }
+  },
 ];
+
+
 
 function Product({ dispatch }) {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [maxPrice, setMaxPrice] = useState(20000);
   const [selectedRating, setSelectedRating] = useState(0);
   const [availability, setAvailability] = useState("");
+  const { fname, lname } = useParams();
+  
 
   const handleCategoryChange = (category) => {
     if (selectedCategories.includes(category)) {
@@ -208,6 +213,8 @@ function Product({ dispatch }) {
         <section className="products-banner">
           <div className="banner-content">
             <h1> All <span>Products</span> </h1>
+            <h1>Hello {fname} {lname}</h1>
+
             <p> Explore our wide range of top quality products </p>
           </div>
         </section>
